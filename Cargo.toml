@@ -1,0 +1,13 @@
+[package]
+name = "rust-http"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+structopt = "0.3.26"
+exitfailure = "0.5.1"
+reqwest = { version = "0.12.4", features = ["json"] }
+serde = "1.0.203"
+serde_json = "1.0.117"
+serde_derive = "1.0.203"
+tokio = { version = "1.37.0", features = ["full"] }
